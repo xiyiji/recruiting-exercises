@@ -1,4 +1,20 @@
+npm install
+npm test
+and you will get this:
 
+   Testing Inventory Allocator for warehouse shipping 
+     computing possible orders
+      ✓  Should return an array of objects that 
+      ✓  Should return an array of objects that contain the correct quantity of items required, sourced from a MULTIPLE warehouses (i.e. split) 
+      ✓  Should return an array of objects that contain the correct quantity of items required, sourced from a MULTIPLE warehouses (i.e. split) 
+     Computing impossible orders
+      ✓  Should return an empty array as insufficient amount of inventory for each item was avaialble 
+      ✓  Should return an empty array as item is non-existent in any warehouse 
+      ✓  Should return an empty array as an empty object of items was given 
+      ✓  Should return an empty array as an empty array of warehosues was given 
+
+
+  7 passing (8ms)
 
 ### Problem
 
